@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+![image](https://github.com/Tanishavats19/notes_app/assets/63641969/27fd7445-49ab-4e0c-a516-f9725f387d12)# Advanced Notes App (TypeScript + React)
+## Add, update, search or delete Notes on this Notes App. Notes can also be tagged accordingly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Home page =>
+![image](https://github.com/Tanishavats19/notes_app/assets/63641969/66a7cd4d-8b37-4729-9b87-ccd5cf0a02dc)
 
-Currently, two official plugins are available:
+## Note =>
+![image](https://github.com/Tanishavats19/notes_app/assets/63641969/be1bf419-0a1e-44a3-b393-a6e1b9814717)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Editing a Note =>
+![image](https://github.com/Tanishavats19/notes_app/assets/63641969/d29c6c6e-3a09-457c-8d6f-dcdc2730a084)
 
-## Expanding the ESLint configuration
+### Libraries used -> react-bootstrap, react-router-dom
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### To run the app on local, run the command: 
+> npm run dev
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
